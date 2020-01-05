@@ -1,18 +1,25 @@
 {
-    "name": "techlevin/wp-plugin-booster",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Md Miraj Khan",
-            "email": "miraj.net.xp@gmail.com"
-        }
-    ],
-    "minimum-stability": "dev",
-    "require": {},
-    "autoload": {
-        "psr-4": {
-            "TechLevin\\": "src/"
-        }
+  "name": "techlevin/wp-plugin-booster",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Md Miraj Khan",
+      "email": "miraj.net.xp@gmail.com"
     }
+  ],
+  "keywords": [
+    "wordpress",
+    "wordpress plugin development",
+    "plugin development"
+  ],
+  "license": "MIT",
+  "require": {
+    "php": "^7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "TechLevin\\": "src/"
+    }
+  },
+  "minimum-stability": "dev"
 }
