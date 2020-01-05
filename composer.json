@@ -1,0 +1,16 @@
+{
+    "name": "techlevin/wp-plugin-booster",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Md Miraj Khan",
+            "email": "miraj.net.xp@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "TechLevin\\": "src/"
+    }
+}
