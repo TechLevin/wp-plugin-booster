@@ -11,6 +11,8 @@
     "minimum-stability": "dev",
     "require": {},
     "autoload": {
-        "TechLevin\\": "src/"
+        "psr-4": {
+            "TechLevin\\": "src/"
+        }
     }
 }
